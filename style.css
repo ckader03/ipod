@@ -1,0 +1,128 @@
+body{background-color:white}
+
+
+.main{
+  width: 300px;
+  height: 500px;
+  background:#454545;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 3px;
+  /*radius*/
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+  
+  /*position front body */
+  position: relative;
+  top: 10px;
+  left: 8px;
+}
+
+.screen{
+  width: 280px;
+  height: 210px;
+  background: black;
+  margin: 10px auto;
+  border-radius: 15px;
+}
+
+.navigator{
+  width: 250px;
+  height: 230px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  border-color: rgb(52, 19, 104);
+}
+
+.keys{
+  width: 210px;
+  height: 210px;
+  background: #454545;
+  margin: 10px auto;
+  overflow: hidden;
+  /*radius*/
+  -webkit-border-radius: 100%;
+     -moz-border-radius: 100%;
+          border-radius: 100%;
+  /* shadow*/ */
+   -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+   -moz-box-shadow: 0px 2px 5px 0px rgba(8, 8, 8, 0.979);
+     box-shadow: 0px 2px 5px 0px rgba(20, 20, 20, 0.2);
+}
+
+
+
+
+.menu-btn{
+  display: block;
+  position: absolute;
+  top: 32px;
+  left: 107px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(17, 218, 67);
+}
+
+
+.fwd{
+  width: 22px;
+  position: absolute;
+  top: 108px;
+  left: 195px;
+  color: white;
+}
+
+
+
+
+.bkd{
+  width: 22px;
+  position: absolute;
+  top: 108px;
+  left: 41px;
+  color: white;
+
+}
+
+img.bkd{  
+  /*filter*/
+  filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	   -moz-filter: grayscale(1);
+	     -o-filter: grayscale(1);
+	    -ms-filter: grayscale(1);
+
+}
+
+
+.play-pause{
+  width: 28px;
+  position: absolute;
+  top: 182px;
+  left: 120px;
+}
+
+img.play-pause{  
+  /*filter*/
+  filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	   -moz-filter: grayscale(1);
+	     -o-filter: grayscale(1);
+	    -ms-filter: grayscale(1);
+      
+}
+
+.play{
+  width: 100px;
+  height: 100px;
+  background: black;
+  margin: 54px auto;
+  border-radius: 100%;
+ 
+}
+
+
+
+
